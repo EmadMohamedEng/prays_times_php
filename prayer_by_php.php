@@ -29,7 +29,7 @@
 
 		//	print_r($location);
 
-
+/*
 		include('PrayTime.php');
 
 		$method = 5 ; // Egyptian General Authority of Survey
@@ -39,12 +39,45 @@
 
 
 		$prayTime = new PrayTime($method);
+		$prayTime->setTimeFormat('12hNS');
+		$latitude = "30";
+		$longitude = "31";
 		$times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
 
 		$day = date('M d', $date);
 		print $day . "\t" . implode("\t", $times) . "\n";
+		*/
 
 	}
+
+
+
+	include('PrayTime.php');
+
+	$method = 5 ; // Egyptian General Authority of Survey
+	$timeZone = +2 ;
+
+	$date = strtotime(date("Y-n-j"));  // php date month and day without leading zero   ... Use j instead of d and n instead of m:
+
+
+	$prayTime = new PrayTime($method);
+	$prayTime->timeFormat = 1 ;  // 12-hour format
+	$latitude = "30";
+	$longitude = "31";
+	$times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
+
+
+	$prayer_arra = array();
+	foreach ($times as $key=>$value ){
+		$prayer_arra[$prayTime->timeNames[$key]] = $value;
+	}
+
+	print_r($prayer_arra) ; die;
+
+	/*
+	$day = date('M d', $date);
+	print $day . "\t" . implode("\t", $times) . "\n";
+	*/
 
 	?>
 </pre>

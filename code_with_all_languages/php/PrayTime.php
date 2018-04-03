@@ -101,7 +101,7 @@ class PrayTime
     // Time Formats
     var $Time24     = 0;    // 24-hour format
     var $Time12     = 1;    // 12-hour format
-    var $Time12NS   = 2;    // 12-hour format with no suffix   // suffix : mean am  or pm
+    var $Time12NS   = 2;    // 12-hour format with no suffix
     var $Float      = 3;    // floating point number
 
     // Time Names

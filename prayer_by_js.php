@@ -21,7 +21,10 @@
 <script type="text/javascript">
 
     var date = new Date(); // today
-    var times = prayTimes.getTimes(date, [30, 31], 5);
+    prayTimes.setMethod("Egypt");
+    var times = prayTimes.getTimes(date, [30, 31], "2" , "auto",'12hNS');
+
+
     var list = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight'];
 
     var html = '<table id="timetable">';

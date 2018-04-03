@@ -1,0 +1,18 @@
+
+
+
+
+prayer Times like in azan :
+---------------------------
+
+js: 
+----
+
+http://praytimes.org/manual
+
+
+by all languages :
+------------------
+
+https://github.com/abodehq/Pray-Times
+

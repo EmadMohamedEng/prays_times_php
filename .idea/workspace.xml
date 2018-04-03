@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f069f881-a1e8-403c-98a6-50c18017bbe3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrayTime.php" afterPath="$PROJECT_DIR$/PrayTime.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prayer_by_js.php" afterPath="$PROJECT_DIR$/prayer_by_js.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prayer_by_php.php" afterPath="$PROJECT_DIR$/prayer_by_php.php" />
     </list>
     <ignored path="pray.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +36,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prayer_by_js.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prayer_by_js.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prayer_by_js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prayer_by_php.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prayer_by_php.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrayTime.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrayTime.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="107" column="18" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrayTimes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/PrayTimes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -56,6 +88,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/prayer2.php" />
         <option value="$PROJECT_DIR$/prayer_by_js.php" />
+        <option value="$PROJECT_DIR$/PrayTime.php" />
+        <option value="$PROJECT_DIR$/prayer_by_php.php" />
       </list>
     </option>
   </component>
@@ -165,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522744976361</updated>
       <workItem from="1522744977856" duration="1288000" />
-      <workItem from="1522746524289" duration="1878000" />
+      <workItem from="1522746524289" duration="5480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3166000" />
+    <option name="totallyTimeSpent" value="6768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -243,6 +277,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/PrayTimes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -253,8 +295,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prayer_by_js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrayTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prayer_by_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
           <folding />
         </state>
       </provider>
