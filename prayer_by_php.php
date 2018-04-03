@@ -25,7 +25,7 @@
 
 		$latitude = round($location->latitude);
 		$longitude = round($location->longitude);
-		echo $latitude ."--------".$longitude ; die;
+		// echo $latitude ."--------".$longitude ; die;
 
 		//	print_r($location);
 
@@ -34,7 +34,9 @@
 
 		$method = 5 ; // Egyptian General Authority of Survey
 		$timeZone = +2 ;
-		$date = strtotime(date("Y-j-n"));  // php date month and day without leading zero   ... Use j instead of d and n instead of m:
+
+		$date = strtotime(date("Y-n-j"));  // php date month and day without leading zero   ... Use j instead of d and n instead of m:
+
 
 		$prayTime = new PrayTime($method);
 		$times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
