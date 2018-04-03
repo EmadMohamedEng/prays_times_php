@@ -3,7 +3,7 @@
 </style>
 
 <pre>
- Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha 
+ Date   Fajr   Sunrise  Dhuhr    Asr   Sunset  Maghrib  Isha
 -------------------------------------------------------------
 
 
@@ -23,27 +23,26 @@
 	if ($data) {
 		$location = json_decode($data);
 
-		$lat = $location->latitude;
-		$lon = $location->longitude;
+		$latitude = round($location->latitude);
+		$longitude = round($location->longitude);
+		echo $latitude ."--------".$longitude ; die;
+
+		//	print_r($location);
 
 
-		print_r($location); die;
+		include('PrayTime.php');
+
+		$method = 5 ; // Egyptian General Authority of Survey
+		$timeZone = +2 ;
+		$date = strtotime(date("Y-j-n"));  // php date month and day without leading zero   ... Use j instead of d and n instead of m:
+
+		$prayTime = new PrayTime($method);
+		$times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
+
+		$day = date('M d', $date);
+		print $day . "\t" . implode("\t", $times) . "\n";
+
 	}
 
-
-
-
-
-	include('PrayTime.php');
-	list($method, $year, $latitude, $longitude, $timeZone) = array(5, 2018 , 30, 31, +2);  // $method = "5";  // Egyptian General Authority of Survey
-    $date = strtotime($year. '-4-3');  
-	$prayTime = new PrayTime($method);
-    $times = $prayTime->getPrayerTimes($date, $latitude, $longitude, $timeZone);
-
-	$day = date('M d', $date);
-	print $day. "\t". implode("\t", $times). "\n";
- 
-
-
-?>
+	?>
 </pre>
