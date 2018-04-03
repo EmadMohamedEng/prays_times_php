@@ -12,7 +12,7 @@
 
 <body>
 
-<script type="text/javascript" src="https://s3.amazonaws.com/islamSite/PrayTimes/PrayTimes.js"></script>
+<script type="text/javascript" src="js/PrayTimes.js"></script>
 
 <br>
 <p align="center">Amman, Jordan<p>
