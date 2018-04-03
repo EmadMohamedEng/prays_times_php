@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f069f881-a1e8-403c-98a6-50c18017bbe3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrayTime.php" afterPath="$PROJECT_DIR$/PrayTime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prayer_by_js.php" afterPath="$PROJECT_DIR$/prayer_by_js.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prayer_by_php.php" afterPath="$PROJECT_DIR$/prayer_by_php.php" />
     </list>
     <ignored path="pray.iws" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="prayer_by_php.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prayer_by_php.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+            <state relative-caret-position="270">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -60,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/PrayTime.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="107" column="18" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="18" />
+              <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -199,12 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522744976361</updated>
       <workItem from="1522744977856" duration="1288000" />
-      <workItem from="1522746524289" duration="5480000" />
+      <workItem from="1522746524289" duration="5820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6768000" />
+    <option name="totallyTimeSpent" value="7108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -301,18 +299,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code_with_all_languages/php/PrayTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrayTime.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="18" />
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prayer_by_php.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding />
         </state>
       </provider>
